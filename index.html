@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Log in</title>
+
+        <link rel="stylesheet" href="main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="login-container">
+                <div class="login">
+                    <h1>SIGN UP</h1>
+    
+                    <div class="form-container">
+                        <form>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="Email">
+                            <p class="error-text-email-signup inactive">text</p>
+    
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="Password">
+                            <p class="error-text-password-signup inactive">text</p>
+                            
+                        </form>
+
+                        <button onclick="signUp('email', 'password')">SIGN UP</button>
+
+                        <hr>
+
+                        <ul>
+                            <li><a href="#"><img src="Images/Icons/1298745_google_brand_branding_logo_network_icon.png"></a></li>
+                            <li><a href="#"><img src="Images/Icons/5296499_fb_facebook_facebook logo_icon.png"></a></li>
+                            <li><a href="#"><img src="Images/Icons/5296501_linkedin_network_linkedin logo_icon.png"></a></li>
+                            <li><a href="#">Already a user? <span>LOGIN</span></a></li>             
+                        </ul>
+
+                        
+
+                    </div>
+    
+
+                </div>
+    
+                <div class="login">
+                    <h1>LOG IN</h1>
+    
+                    <div class="form-container">
+                        <form>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="Email"><br>
+                            <p class="error-text-email-login inactive">text</p>
+
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="Password"><br>
+                            <p class="error-text-password-login inactive">text</p>
+                            
+                            <label for="remember-me">Remember Me</label>
+                            <input type="checkbox" id="remember-me">
+                            <p class="error-text-remember-login inactive">text</p>
+                        </form>
+
+                        <button>LOG IN</button>
+
+                        <hr>
+
+                        <ul>
+                            <li><a href="#"><img src="Images/Icons/1298745_google_brand_branding_logo_network_icon.png"></a></li>
+                            <li><a href="#"><img src="Images/Icons/5296499_fb_facebook_facebook logo_icon.png"></a></li>
+                            <li><a href="#"><img src="Images/Icons/5296501_linkedin_network_linkedin logo_icon.png"></a></li>
+                            <br><li><a href="#">Need an account? <span>SIGN UP</span></a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+           
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
